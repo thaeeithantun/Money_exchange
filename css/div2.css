@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+#container{
+	width: 50%;
+	margin: auto;
+	
+	 padding: 200px;
+	}
+	#container img{
+	width: 50%;
+
+
+	}
+	
+	.row{
+	height: 50px;
+	margin-bottom: 20px;
+	position:relative;
+	}
+	.row div{
+	height:50%;
+	}
+	.single
+	{
+	
+	}
+	.column-2
+	{
+	width: 50%;
+	}
+	.column-3{
+	width: 50%;
+	}
+	.left
+	{
+
+	float: left;
+	}
+	.center{
+	float:left;
+	margin: 0 5%;
+	}
+	.right{
+	float:right;
+	}
+	
+	
+	
+	

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	
+	<servlet>
+<servlet-name>MyLogin</servlet-name>
+<servlet-class>MyLogin</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyLogin</servlet-name>
+<url-pattern>/MyLogin</url-pattern>
+</servlet-mapping>
+
+	<servlet>		
+		
+		
+		<servlet-name>test</servlet-name>
+		<servlet-class>test</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>test</servlet-name>
+		<url-pattern>/test</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>		
+		
+		
+		<servlet-name>testjavawd</servlet-name>
+		<servlet-class>testjavawd</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>testjavawd</servlet-name>
+		<url-pattern>/testjavawd</url-pattern>
+	</servlet-mapping>
+	
+
+
+
+
+
+
+
+
+<servlet>
+<servlet-name>MySignup</servlet-name>
+<servlet-class>MySignup</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MySignup</servlet-name>
+<url-pattern>/MySignup</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>signup</servlet-name>
+<servlet-class>signup</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>signup</servlet-name>
+<url-pattern>/signup</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>MyBalance</servlet-name>
+<servlet-class>MyBalance</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyBalance</servlet-name>
+<url-pattern>/MyBalance</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>MyWithdraw</servlet-name>
+<servlet-class>MyWithdraw</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyWithdraw</servlet-name>
+<url-pattern>/MyWithdraw</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>UserInsert</servlet-name>
+<servlet-class>UserInsert</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>UserInsert</servlet-name>
+<url-pattern>/UserInsert</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>MyTransfer</servlet-name>
+<servlet-class>MyTransfer</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyTransfer</servlet-name>
+<url-pattern>/MyTransfer</url-pattern>
+</servlet-mapping>
+
+<servlet>
+<servlet-name>MyChange</servlet-name>
+<servlet-class>MyChange</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyChange</servlet-name>
+<url-pattern>/MyChange</url-pattern>
+</servlet-mapping> 	
+
+<servlet>
+<servlet-name>MyHistory</servlet-name>
+<servlet-class>MyHistory</servlet-class>
+</servlet>
+<servlet-mapping>
+<servlet-name>MyHistory</servlet-name>
+<url-pattern>/MyHistory</url-pattern>
+</servlet-mapping> 	
+	
+<servlet>		
+		
+		<servlet-name>CheckPW</servlet-name>
+		<servlet-class>CheckPW</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CheckPW</servlet-name>
+		<url-pattern>/CheckPW</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>		
+		
+		<servlet-name>insert</servlet-name>
+		<servlet-class>insert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>insert</servlet-name>
+		<url-pattern>/insert</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>		
+		
+		<servlet-name>adminUserInsert</servlet-name>
+		<servlet-class>adminUserInsert</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminUserInsert</servlet-name>
+		<url-pattern>/adminUserInsert</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>		
+		
+		<servlet-name>Deleteuser</servlet-name>
+		<servlet-class>Deleteuser</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Deleteuser</servlet-name>
+		<url-pattern>/Deleteuser</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>		
+		
+		<servlet-name>adminMyChange</servlet-name>
+		<servlet-class>adminMyChange</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminMyChange</servlet-name>
+		<url-pattern>/adminMyChange</url-pattern>
+	</servlet-mapping>
+	
+	
+</web-app>
